@@ -27,4 +27,17 @@ docker container run -it --rm func4plus1/lynx
 
 ```
 
+-i           keeps [STDIN](http://man7.org/linux/man-pages/man3/stdin.3.html) open 
 
+-t, -tty     allocates a [pseudo-TTY](https://linux.die.net/man/1/tty)
+
+--rm         Automatically remove the container when it exits
+
+
+for more help 
+
+```
+
+run docker container run --help | less
+
+```
